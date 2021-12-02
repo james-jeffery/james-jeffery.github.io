@@ -14,12 +14,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;  
-    width: auto;
-    height: auto%;
+    width: 300px;
+    height: 300px;
     margin: 10px;
     padding: 5px;
     background-color: White;
     border: #2a9d8f solid 5px;
     border-radius: 10px;
     font-size: 10pxp;
+}
+
+.container {
+    border: #b3cde0 solid 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
