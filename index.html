@@ -7,11 +7,15 @@
 
 <head>
 
-<!--The next three lines allow the Vega embed-->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
-
+    <!--The next three lines allow the Vega embed-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    <!--meta data allows the screen to automatically adjust depending on what you are lookign 
+    // at the website on-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css"
 </head>
 
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
@@ -23,13 +27,25 @@
 <body>
 
 <!--Vaga embed, with notes for what is going on -->
-  <div class="chart" id="firstChart">
-      <script>
-        var myChart1 = "chart1_covidUKRegions.json";
-        vegaEmbed('#firstChart', myChart1);
-      </script>
-  </div>
+<div class="chart" id="firstChart">
+    <script>
+      var myChart1 = "chart1_covidUKRegions.json";
+      vegaEmbed('#firstChart', myChart1);
+    </script>
+</div>
 
+<div class="wrapper">
+    <h2> Hello World </h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis dui vitae nibh vestibulum faucibus eu condimentum dui. Duis tincidunt dignissim laoreet. </p>
+    <p> Ut id condimentum arcu. In hac habitasse platea dictumst. Proin eu mattis risus, eu varius velit. Cras arcu lectus, tincidunt consectetur eleifend et, porttitor vel mi. Mauris et consequat sapien, vitae dictum quam. Morbi non turpis quis purus vehicula aliquet vitae in nibh. </p>
+
+    <div class="chart" id="firstChart">
+        <script>
+            var myChart1 = "chart1_covidUKRegions.json";
+            vegaEmbed('#firstChart', myChart1);
+        </script>
+    </div>      
+</div>
 
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
