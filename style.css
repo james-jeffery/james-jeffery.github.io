@@ -1,6 +1,8 @@
 /*This will make the background of the page into the colour I want, and the width will auto-adjust*/
 .wrapper{
-    width:100%:
+    width:100%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 body {
