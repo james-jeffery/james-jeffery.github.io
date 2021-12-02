@@ -1,4 +1,8 @@
 /*This will make the background of the page into the colour I want, and the width will auto-adjust*/
+.wrapper{
+    width:100%:
+}
+
 body {
     text-align: center;
     max-width: auto;
@@ -6,20 +10,12 @@ body {
     background-color: #6497b1;
   }
 
-.container {
-    border: #b3cde0 solid 5px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .chart {
     display: flex;
     align-items: center;
     justify-content: center;  
-    width: 400px;
-    height: 390px;
+    width: auto;
+    height: auto%;
     margin: 10px;
     padding: 5px;
     background-color: White;
