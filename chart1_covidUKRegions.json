@@ -1,4 +1,4 @@
-  {"$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+{"$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   
   "description": "Coronavirus cases",
   
@@ -15,12 +15,6 @@
     "color": "black"
   },
 
-
-
-  "height": 100%,
-  
-  "width": 100%,
-  
   "mark": {"type": "bar", "width":10},
   
   "selection": {
